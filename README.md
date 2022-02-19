@@ -60,5 +60,6 @@ Além disto é bom ter um editor para trabalhar com o código como o <a style="t
 
 Através da linha de comando na raiz do projeto, digite:
 ```
+npm install
 npm start
 ```
