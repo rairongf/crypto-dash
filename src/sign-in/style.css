@@ -1,0 +1,44 @@
+#login-page h1 {
+  font-size: 3.6rem;
+  margin: 15px 0 15px 0;
+  color: #e2e2e2;
+}
+
+#login-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #040935;
+}
+
+#login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#login-container form {
+  display: block;
+  padding: 0 20px 0 20px;
+}
+
+#error-warning {
+  color: #ff5656;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-family: 'Nunito';
+}
+
+#submit-button {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  padding: 6px 12px 6px 12px;
+  border-radius: 6px;
+  background-color: #ffab5c;
+  color: #040935;
+  font-size: 1.8rem;
+  font-weight: 700;
+  font-family: 'Nunito';
+}
