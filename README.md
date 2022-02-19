@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+### :construction: Em construção 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    Crypto Dash
+</h1>
+<p align="center">Dashboard para visualização de dados de criptomoedas</p>
+<div align="center">
+  <a style="text-decoration: none" href="https://github.com/rairongf/program-me" target="_blank">
+    <img src="https://img.shields.io/static/v1?label=APP&message=Crypto Dash&color=040935&style=for-the-badge" align="center"/>
+  </a>
+</div>
+<br>
+<!--
+<p align="center">
+ <a style="text-decoration: none" href="#sobre">Sobre</a> •
+ <a style="text-decoration: none" href="#roadmap">Features</a> • 
+ <a style="text-decoration: none" href="#roadmap">Layout</a> • 
+ <a style="text-decoration: none" href="#tecnologias">Tecnologias</a> • 
+ <a style="text-decoration: none" href="#licenc-a">Licença</a> • 
+ <a style="text-decoration: none" href="#autor">Autor</a>
+</p>
+-->
 
-## Available Scripts
+## :information_source: Sobre o projeto
 
-In the project directory, you can run:
+Dashboard simples para visualização de dados de criptomoedas a partir da API pública da CoinGecko.
 
-### `yarn start`
+## :zap: Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [x] Simulação de login
+- [x] Dashboard de visualização de dados
+- [ ] Coletar dados de todas as moedas registradas
+- [ ] Gráficos de preço x tempo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## :art: Layout
 
-### `yarn test`
+:construction: Screenshots a caminho!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Tecnologias
 
-### `yarn build`
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [ReactJS](https://reactjs.org/)
+- [React Router DOM](https://github.com/date-fns/date-fns)
+- [RecoilJS](https://recoiljs.org/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## :rocket: Como executar o projeto
+### Pré-requisitos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 
-### `yarn eject`
+<p>
+  <a style="text-decoration: none" href="https://git-scm.com" target="_blank">Git</a>,
+  <a style="text-decoration: none" href="https://nodejs.org/en/" target="_blank">Node.js</a>.
+</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Além disto é bom ter um editor para trabalhar com o código como o <a style="text-decoration: none" href="https://code.visualstudio.com/" target="_blank">VSCode</a>.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### :computer: Rodando a aplicação
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Através da linha de comando na raiz do projeto, digite:
+```
+npm start
+```
