@@ -1,0 +1,40 @@
+#input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+}
+
+#input {
+  display: block;
+  width: 100%;
+  border: 0.2rem solid #b9b9b9;
+  border-radius: 6px;
+  background-color: #dfdfdf;
+  padding: 8px;
+  font-size: 1.6rem;
+  color: #060f61;
+  outline: 0;
+}
+
+#input:hover, #input:focus {
+  border: 0.2rem solid #4f69af;
+}
+
+label {
+  font-size: 1.2rem;
+  color: #e2e2e2;
+  font-weight: 700;
+}
+
+#toggle {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  color: #e2e2e2;
+}
+
+#toggle:hover {
+  color: #a2a9e2;
+}
