@@ -1,0 +1,134 @@
+#dashboard-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  background-color: #040935;
+  color: #e2e2e2;
+}
+
+#dashboard-page h1 {
+  font-size: 2.4rem;
+}
+
+#dashboard-page h2 {
+  font-size: 1.4rem;
+}
+
+#dashboard-page h1, #dashboard-page h2 {
+  margin: 0;
+}
+
+#dashboard-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+#dashboard-header div {
+  display: flex;
+}
+
+#dashboard-header div button {
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  background: none;
+  color: #e2e2e2;
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-family: 'Nunito';
+}
+
+#dashboard-header div button:hover {
+  color: #a2a9e2;
+}
+
+#dashboard-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+}
+
+#dashboard-main .title {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+#dashboard-main .subtitle {
+  display: flex;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#dashboard-main #grid-container #option {
+  text-align: center;
+}
+
+#dashboard-main #grid-container {
+  display: grid;
+  grid-template-areas: 
+    ". ."
+    ". ."
+  ;
+  gap: 20px;
+}
+
+#dashboard-main #grid-container #option button {
+  padding: 8px;
+  cursor: pointer;
+  color: #e2e2e2;
+  font-size: 1.0rem;
+  font-weight: 700;
+  font-family: 'Nunito';
+  outline: 0;
+  border: 0;
+  background: none;
+  margin: 0;
+}
+
+#dashboard-main #grid-container #option .selected {
+  background-color: #a2a9e2;
+  border-radius: 8px;
+}
+
+#dashboard-main #grid-container #option button:hover {
+  background-color: #a2a9e2;
+  border-radius: 8px;
+}
+
+#dashboard-main #table-container {
+  height: 100%;
+  padding: 2px;
+  margin: 40px 6px 40px 6px;
+  background-color: #e2e2e2;
+  border-radius: 8px;
+  color: #040935;
+  font-size: 1.0rem;
+  font-weight: 700;
+  font-family: 'Nunito';
+}
+
+#dashboard-main #table-container td {
+  padding: 4px;
+  text-align: center;
+}
+
+#dashboard-main #table-container .table-header {
+  background-color: #040935;
+  color: #e2e2e2;
+}
+
+#dashboard-main #table-container .top-left {
+  border-top-left-radius: 8px;
+}
+
+#dashboard-main #table-container .top-right {
+  border-top-right-radius: 8px;
+}
+
+#dashboard-main #table-container .bottom-left {
+  border-bottom-left-radius: 8px;
+}
